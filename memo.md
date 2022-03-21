@@ -8,14 +8,17 @@
 
 #[Processing large JSON files in Python without running out of memory](https://pythonspeed.com/articles/json-memory-streaming/)
 
+一気に読み込むと、無駄ができるよ
+
+
+文字列のデータに依って基のサイズより大きくなるよ
 
 
 
 
 
 
-
-クソでかデータのとりあつかい
+# クソでかデータのとりあつかい
 
 
 [Vim (with python) で json を整形](https://qiita.com/tomoemon/items/cc29b414a63e08cd4f89)
