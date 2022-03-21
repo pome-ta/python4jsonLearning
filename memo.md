@@ -18,5 +18,7 @@ Python ワンライナーでコケてるから
 
 `:%!python -m json.tool` これだけやってる
 
-
 `:%!python3 -m json.tool`
+
+
+結局、UFT-8 の文字化けがあったので、vscode でゴリっとやった
