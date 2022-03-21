@@ -10,3 +10,13 @@
 
 
 クソでかデータのとりあつかい
+
+
+[Vim (with python) で json を整形](https://qiita.com/tomoemon/items/cc29b414a63e08cd4f89)
+
+Python ワンライナーでコケてるから
+
+`:%!python -m json.tool` これだけやってる
+
+
+`:%!python3 -m json.tool`
