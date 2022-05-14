@@ -1,1 +1,3 @@
 [submodule "test-data"]
+	path = test-data
+	url = https://pome-ta@github.com/pome-ta/test-data
