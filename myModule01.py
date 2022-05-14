@@ -286,7 +286,9 @@ if __name__ == '__main__':
   import json
 
   #json_path = Path('./data/sample02.json')
-  json_path = Path('./test-data/large-file.json')
+  # json_path = Path('./test-data/large-file.json')
+  # json_path = Path('./test-data/quarter-file.json')
+  json_path = Path('./data/sample01.json')
   json_str = json_path.read_text(encoding='utf-8')
   json_main = parse(json_str)
   '''
