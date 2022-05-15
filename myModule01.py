@@ -287,10 +287,11 @@ if __name__ == '__main__':
 
   #json_path = Path('./data/sample02.json')
   # json_path = Path('./test-data/large-file.json')
-  # json_path = Path('./test-data/quarter-file.json')
-  json_path = Path('./data/sample01.json')
+  json_path = Path('./test-data/quarter-file.json')
+  #json_path = Path('./data/sample01.json')
   json_str = json_path.read_text(encoding='utf-8')
-  json_main = parse(json_str)
+  #json_main = parse(json_str)
+  json_main = get_tokens(json_str)
   '''
   json_load = json.loads(json_str)
   with json_path.open(mode='r', encoding='utf_8') as f:
